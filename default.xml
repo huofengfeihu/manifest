@@ -10,9 +10,9 @@
     <project name="build" path="build" >
         <linkfile src="main.mk" dest="Makefile" />
     </project>
-    <project name="boot/u-boot" path="boot/u-boot" />
-    <project name="linux/kernel" path="linux/kernel" />
-    <project name="linux/rootfs" path="linux/rootfs" />
-    <project name="tools/toolchain" path="tools/toolchain" />
-    <project name="tools/bin" path="tools/bin" />
+    <project name="uboot" path="uboot" />
+    <project name="kernel" path="kernel" />
+    <project name="rootfs" path="rootfs" />
+    <project name="userdata" path="userdata" />
+    <project name="tools" path="tools" />
 </manifest>
